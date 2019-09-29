@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.head {
+    background-color: violet;
+    border: 3px solid violet;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-wrap { 
+    width:400px;
+    height:50px;
+    display:flex;
+}
+
+button { 
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 5px 1px 0px;
+    background: linear-gradient(to bottom, violet, grey)
+}
+button:hover{
+    border: transparent;
+}
